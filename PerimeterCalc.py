@@ -6,7 +6,7 @@ def get_number(message):
     while True:
         try:
             n = int(input(message))
-        except TypeError:
+        except ValueError:
             print("Invalid entry. Please enter an integer value.")
             continue
         else:
