@@ -4,12 +4,12 @@
 def get_number(prompt):
     while True:
         try:
-            n = int(input(prompt))
+            number = int(input(prompt))
         except ValueError:
             print("Invalid entry. Please enter an integer value.")
             continue
         else:
-            return n
+            return number
 
 
 # Assign l and w by calling functions
